@@ -98,6 +98,7 @@ new_test=extent.createTest("verify title");
 
 	public void login() {
 		
+		new_test=extent.createTest("verify login");
 		//calling web element by name
 		WebElement user=driver.findElement(By.name(cred.getUsername()));
 		user.sendKeys(inp.username);
