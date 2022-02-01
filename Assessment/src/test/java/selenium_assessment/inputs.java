@@ -5,7 +5,7 @@ public class inputs {
 	public final String username="Admin";
 	public final String password ="admin123";
 	
-	public final String addusername ="Selenium506";
+	public final String addusername ="Selenium500";
 	public final String adduserpass="Selenium500";
 	
 	public final String empname ="Jasmine Morgan";

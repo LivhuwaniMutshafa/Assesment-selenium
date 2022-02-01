@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="18" passed="10" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-01T01:01:51 SAST" name="Suite" finished-at="2022-02-01T01:02:34 SAST" duration-ms="43504">
+  <suite started-at="2022-02-01T08:39:01 SAST" name="Default suite" finished-at="2022-02-01T08:40:29 SAST" duration-ms="88139">
     <groups>
     </groups>
-    <test started-at="2022-02-01T01:01:51 SAST" name="Test" finished-at="2022-02-01T01:02:34 SAST" duration-ms="43504">
+    <test started-at="2022-02-01T08:39:01 SAST" name="Default test" finished-at="2022-02-01T08:40:29 SAST" duration-ms="88139">
       <class name="selenium_assessment.OrangeHrm">
-        <test-method is-config="true" signature="load_application()[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:01:44 SAST" name="load_application" finished-at="2022-02-01T01:01:51 SAST" duration-ms="6785" status="PASS">
+        <test-method is-config="true" signature="load_application()[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:38:38 SAST" name="load_application" finished-at="2022-02-01T08:39:01 SAST" duration-ms="22928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load_application -->
-        <test-method signature="verify_title()[pri:1, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:01:51 SAST" name="verify_title" finished-at="2022-02-01T01:01:51 SAST" duration-ms="20" status="PASS">
+        <test-method signature="verify_title()[pri:1, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:01 SAST" name="verify_title" finished-at="2022-02-01T08:39:01 SAST" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_title -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:01:51 SAST" name="evaluate" finished-at="2022-02-01T01:01:51 SAST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:01 SAST" name="evaluate" finished-at="2022-02-01T08:39:01 SAST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="login()[pri:2, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:01:51 SAST" name="login" finished-at="2022-02-01T01:01:58 SAST" duration-ms="7501" status="PASS">
+        <test-method signature="login()[pri:2, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:01 SAST" name="login" finished-at="2022-02-01T08:39:20 SAST" duration-ms="19317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:01:58 SAST" name="evaluate" finished-at="2022-02-01T01:01:58 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:20 SAST" name="evaluate" finished-at="2022-02-01T08:39:20 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validateAdd()[pri:3, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:01:58 SAST" name="validateAdd" finished-at="2022-02-01T01:02:00 SAST" duration-ms="2017" status="FAIL">
+        <test-method signature="Addbtn()[pri:3, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:20 SAST" name="Addbtn" finished-at="2022-02-01T08:39:24 SAST" duration-ms="4091" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnAdd']"}
@@ -50,9 +50,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=name, value=btnAdd}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=name, value=btnAdd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='btnAdd']"}
@@ -61,9 +61,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=name, value=btnAdd}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=name, value=btnAdd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -80,7 +80,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validateAdd(OrangeHrm.java:148)
+at selenium_assessment.OrangeHrm.Addbtn(OrangeHrm.java:163)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -114,19 +114,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateAdd -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:00 SAST" name="evaluate" finished-at="2022-02-01T01:02:00 SAST" duration-ms="1" status="PASS">
+        </test-method> <!-- Addbtn -->
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:24 SAST" name="evaluate" finished-at="2022-02-01T08:39:24 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateAdd status=FAILURE method=OrangeHrm.validateAdd()[pri:3, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
+                <![CDATA[[TestResult name=Addbtn status=FAILURE method=OrangeHrm.Addbtn()[pri:3, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validateDelete()[pri:4, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:00 SAST" name="validateDelete" finished-at="2022-02-01T01:02:02 SAST" duration-ms="2014" status="FAIL">
+        <test-method signature="Delete()[pri:4, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:24 SAST" name="Delete" finished-at="2022-02-01T08:39:28 SAST" duration-ms="4024" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#btnDelete"}
@@ -135,9 +135,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=id, value=btnDelete}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=id, value=btnDelete}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#btnDelete"}
@@ -146,9 +146,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=id, value=btnDelete}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=id, value=btnDelete}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -165,7 +165,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validateDelete(OrangeHrm.java:163)
+at selenium_assessment.OrangeHrm.Delete(OrangeHrm.java:179)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -199,19 +199,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateDelete -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:02 SAST" name="evaluate" finished-at="2022-02-01T01:02:02 SAST" duration-ms="2" status="PASS">
+        </test-method> <!-- Delete -->
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:28 SAST" name="evaluate" finished-at="2022-02-01T08:39:28 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateDelete status=FAILURE method=OrangeHrm.validateDelete()[pri:4, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
+                <![CDATA[[TestResult name=Delete status=FAILURE method=OrangeHrm.Delete()[pri:4, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validateSearch()[pri:5, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:02 SAST" name="validateSearch" finished-at="2022-02-01T01:02:05 SAST" duration-ms="2064" status="FAIL">
+        <test-method signature="validateSearch()[pri:5, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:28 SAST" name="validateSearch" finished-at="2022-02-01T08:39:30 SAST" duration-ms="2069" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#searchBtn"}
@@ -220,9 +220,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=id, value=searchBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=id, value=searchBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#searchBtn"}
@@ -231,9 +231,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=id, value=searchBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=id, value=searchBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -250,7 +250,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validateSearch(OrangeHrm.java:176)
+at selenium_assessment.OrangeHrm.validateSearch(OrangeHrm.java:191)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -285,7 +285,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSearch -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:05 SAST" name="evaluate" finished-at="2022-02-01T01:02:05 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:30 SAST" name="evaluate" finished-at="2022-02-01T08:39:30 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -296,7 +296,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validateReset()[pri:6, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:05 SAST" name="validateReset" finished-at="2022-02-01T01:02:07 SAST" duration-ms="2067" status="FAIL">
+        <test-method signature="validateReset()[pri:6, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:30 SAST" name="validateReset" finished-at="2022-02-01T08:39:32 SAST" duration-ms="2021" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#resetBtn"}
@@ -305,9 +305,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=id, value=resetBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=id, value=resetBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#resetBtn"}
@@ -316,9 +316,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=id, value=resetBtn}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=id, value=resetBtn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -335,7 +335,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validateReset(OrangeHrm.java:189)
+at selenium_assessment.OrangeHrm.validateReset(OrangeHrm.java:205)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -370,7 +370,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateReset -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:07 SAST" name="evaluate" finished-at="2022-02-01T01:02:07 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:32 SAST" name="evaluate" finished-at="2022-02-01T08:39:32 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -381,11 +381,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="modulAdmin()[pri:7, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:07 SAST" name="modulAdmin" finished-at="2022-02-01T01:02:09 SAST" duration-ms="2028" status="PASS">
+        <test-method signature="modulAdmin()[pri:7, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:32 SAST" name="modulAdmin" finished-at="2022-02-01T08:39:37 SAST" duration-ms="4708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- modulAdmin -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:09 SAST" name="evaluate" finished-at="2022-02-01T01:02:09 SAST" duration-ms="0" status="PASS">
+        <test-method signature="adduser()[pri:8, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:37 SAST" name="adduser" finished-at="2022-02-01T08:39:40 SAST" duration-ms="3140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduser -->
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:37 SAST" name="evaluate" finished-at="2022-02-01T08:39:37 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -396,26 +400,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="addbtn()[pri:8, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:09 SAST" name="addbtn" finished-at="2022-02-01T01:02:10 SAST" duration-ms="949" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addbtn -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:10 SAST" name="evaluate" finished-at="2022-02-01T01:02:10 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:40 SAST" name="evaluate" finished-at="2022-02-01T08:39:40 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addbtn status=SUCCESS method=OrangeHrm.addbtn()[pri:8, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
+                <![CDATA[[TestResult name=adduser status=SUCCESS method=OrangeHrm.adduser()[pri:8, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="add_employee()[pri:9, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:10 SAST" name="add_employee" finished-at="2022-02-01T01:02:12 SAST" duration-ms="2355" status="PASS">
+        <test-method signature="add_employee()[pri:9, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:40 SAST" name="add_employee" finished-at="2022-02-01T08:39:45 SAST" duration-ms="4587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- add_employee -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:12 SAST" name="evaluate" finished-at="2022-02-01T01:02:12 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:45 SAST" name="evaluate" finished-at="2022-02-01T08:39:45 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -426,11 +426,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="click_search()[pri:10, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:12 SAST" name="click_search" finished-at="2022-02-01T01:02:15 SAST" duration-ms="3236" status="PASS">
+        <test-method signature="click_search()[pri:10, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:45 SAST" name="click_search" finished-at="2022-02-01T08:39:55 SAST" duration-ms="10336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_search -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:15 SAST" name="evaluate" finished-at="2022-02-01T01:02:15 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:55 SAST" name="evaluate" finished-at="2022-02-01T08:39:55 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -441,7 +441,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validate_username()[pri:11, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:15 SAST" name="validate_username" finished-at="2022-02-01T01:02:17 SAST" duration-ms="2064" status="FAIL">
+        <test-method signature="validate_username()[pri:11, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:55 SAST" name="validate_username" finished-at="2022-02-01T08:39:59 SAST" duration-ms="4030" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[2]/a"}
@@ -450,9 +450,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[2]/a"}
@@ -461,9 +461,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[2]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -480,7 +480,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validate_username(OrangeHrm.java:280)
+at selenium_assessment.OrangeHrm.validate_username(OrangeHrm.java:309)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -515,7 +515,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_username -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:17 SAST" name="evaluate" finished-at="2022-02-01T01:02:17 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:59 SAST" name="evaluate" finished-at="2022-02-01T08:39:59 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -526,7 +526,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validate_employeeName()[pri:12, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:17 SAST" name="validate_employeeName" finished-at="2022-02-01T01:02:19 SAST" duration-ms="2064" status="FAIL">
+        <test-method signature="validate_employeeName()[pri:12, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:39:59 SAST" name="validate_employeeName" finished-at="2022-02-01T08:40:03 SAST" duration-ms="4077" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[4]"}
@@ -535,9 +535,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[4]"}
@@ -546,9 +546,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[4]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[4]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -565,7 +565,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validate_employeeName(OrangeHrm.java:299)
+at selenium_assessment.OrangeHrm.validate_employeeName(OrangeHrm.java:332)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -600,7 +600,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_employeeName -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:19 SAST" name="evaluate" finished-at="2022-02-01T01:02:19 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:03 SAST" name="evaluate" finished-at="2022-02-01T08:40:03 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -611,7 +611,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validate_status()[pri:13, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:19 SAST" name="validate_status" finished-at="2022-02-01T01:02:21 SAST" duration-ms="2060" status="FAIL">
+        <test-method signature="validate_status()[pri:13, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:03 SAST" name="validate_status" finished-at="2022-02-01T08:40:07 SAST" duration-ms="4063" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[5]"}
@@ -620,9 +620,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[5]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="resultTable"]/tbody/tr/td[5]"}
@@ -631,9 +631,9 @@ For documentation on this error, please visit: https://selenium.dev/exceptions/#
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[5]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, findElement {using=xpath, value=//*[@id="resultTable"]/tbody/tr/td[5]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -650,7 +650,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at selenium_assessment.OrangeHrm.validate_status(OrangeHrm.java:319)
+at selenium_assessment.OrangeHrm.validate_status(OrangeHrm.java:353)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -685,7 +685,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_status -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:21 SAST" name="evaluate" finished-at="2022-02-01T01:02:21 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:07 SAST" name="evaluate" finished-at="2022-02-01T08:40:07 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -696,7 +696,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="delete_record()[pri:14, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:21 SAST" name="delete_record" finished-at="2022-02-01T01:02:29 SAST" duration-ms="7140" status="FAIL">
+        <test-method signature="delete_record()[pri:14, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:07 SAST" name="delete_record" finished-at="2022-02-01T08:40:16 SAST" duration-ms="9219" status="FAIL">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -704,10 +704,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, clickElement {id=edff3621-d695-4178-82e6-07455899a48d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (953a549496a0c39e7cc92bb7c3ecaaec)] -> id: dialogDeleteBtn]
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
+Command: [659fc0bef3db57c0215523820a76ef38, clickElement {id=67d82f88-be49-422b-8196-6c7e8ab46705}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (659fc0bef3db57c0215523820a76ef38)] -> id: dialogDeleteBtn]
+Session ID: 659fc0bef3db57c0215523820a76ef38]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -715,10 +715,10 @@ Session ID: 953a549496a0c39e7cc92bb7c3ecaaec]]>
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-9I85TTL0', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953a549496a0c39e7cc92bb7c3ecaaec, clickElement {id=edff3621-d695-4178-82e6-07455899a48d}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:60174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60174/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (953a549496a0c39e7cc92bb7c3ecaaec)] -> id: dialogDeleteBtn]
-Session ID: 953a549496a0c39e7cc92bb7c3ecaaec
+Command: [659fc0bef3db57c0215523820a76ef38, clickElement {id=67d82f88-be49-422b-8196-6c7e8ab46705}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\LIVHUW~1.MUT\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57177}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57177/devtoo..., se:cdpVersion: 97.0.4692.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (659fc0bef3db57c0215523820a76ef38)] -> id: dialogDeleteBtn]
+Session ID: 659fc0bef3db57c0215523820a76ef38
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -733,7 +733,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at selenium_assessment.OrangeHrm.delete_record(OrangeHrm.java:342)
+at selenium_assessment.OrangeHrm.delete_record(OrangeHrm.java:377)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -768,7 +768,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- delete_record -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:29 SAST" name="evaluate" finished-at="2022-02-01T01:02:29 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:16 SAST" name="evaluate" finished-at="2022-02-01T08:40:17 SAST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -779,11 +779,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="search_deleted()[pri:15, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:29 SAST" name="search_deleted" finished-at="2022-02-01T01:02:31 SAST" duration-ms="2684" status="PASS">
+        <test-method signature="search_deleted()[pri:15, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:17 SAST" name="search_deleted" finished-at="2022-02-01T08:40:20 SAST" duration-ms="3003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search_deleted -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:31 SAST" name="evaluate" finished-at="2022-02-01T01:02:31 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:20 SAST" name="evaluate" finished-at="2022-02-01T08:40:20 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -794,11 +794,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="logout()[pri:16, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:31 SAST" name="logout" finished-at="2022-02-01T01:02:34 SAST" duration-ms="3168" status="PASS">
+        <test-method signature="logout()[pri:16, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:20 SAST" name="logout" finished-at="2022-02-01T08:40:25 SAST" duration-ms="5296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:34 SAST" name="evaluate" finished-at="2022-02-01T01:02:34 SAST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:25 SAST" name="evaluate" finished-at="2022-02-01T08:40:25 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -809,26 +809,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validate_url_landingPage()[pri:17, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:34 SAST" name="validate_url_landingPage" finished-at="2022-02-01T01:02:34 SAST" duration-ms="7" status="PASS">
+        <test-method signature="landingPage()[pri:17, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:25 SAST" name="landingPage" finished-at="2022-02-01T08:40:27 SAST" duration-ms="2028" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validate_url_landingPage -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:34 SAST" name="evaluate" finished-at="2022-02-01T01:02:34 SAST" duration-ms="1" status="PASS">
+        </test-method> <!-- landingPage -->
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:27 SAST" name="evaluate" finished-at="2022-02-01T08:40:27 SAST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validate_url_landingPage status=SUCCESS method=OrangeHrm.validate_url_landingPage()[pri:17, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
+                <![CDATA[[TestResult name=landingPage status=SUCCESS method=OrangeHrm.landingPage()[pri:17, instance:selenium_assessment.OrangeHrm@6574a52c] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method signature="validate_url_landingPage2()[pri:18, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:34 SAST" name="validate_url_landingPage2" finished-at="2022-02-01T01:02:34 SAST" duration-ms="5" status="PASS">
+        <test-method signature="validate_url_landingPage2()[pri:18, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:27 SAST" name="validate_url_landingPage2" finished-at="2022-02-01T08:40:29 SAST" duration-ms="2013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_url_landingPage2 -->
-        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:34 SAST" name="evaluate" finished-at="2022-02-01T01:02:34 SAST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="evaluate(org.testng.ITestResult)[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:29 SAST" name="evaluate" finished-at="2022-02-01T08:40:29 SAST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -839,11 +839,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- evaluate -->
-        <test-method is-config="true" signature="clearup()[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T01:02:34 SAST" name="clearup" finished-at="2022-02-01T01:02:35 SAST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="clearup()[pri:0, instance:selenium_assessment.OrangeHrm@6574a52c]" started-at="2022-02-01T08:40:29 SAST" name="clearup" finished-at="2022-02-01T08:40:29 SAST" duration-ms="407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearup -->
       </class> <!-- selenium_assessment.OrangeHrm -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
