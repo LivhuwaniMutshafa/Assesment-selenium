@@ -8,15 +8,13 @@
           <include name="validateSearch"/>
           <include name="validate_employeeName"/>
           <include name="load_application"/>
-          <include name="validateDelete"/>
-          <include name="search_deleted"/>
+          <include name="Addbtn"/>
+          <include name="Delete"/>
           <include name="validateReset"/>
           <include name="validate_status"/>
-          <include name="delete_record"/>
-          <include name="click_search"/>
-          <include name="validateAdd"/>
           <include name="clearup"/>
           <include name="validate_username"/>
+          <include name="delete_record"/>
           <include name="evaluate"/>
         </methods>
       </class> <!-- selenium_assessment.OrangeHrm -->

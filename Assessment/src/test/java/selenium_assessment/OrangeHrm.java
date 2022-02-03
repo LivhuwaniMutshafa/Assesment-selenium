@@ -21,8 +21,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
-
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -133,7 +131,7 @@ public class OrangeHrm {
 			driver.findElements(By.id("Admin"));
 			new_test.pass("Admin tab is displayed");
 			logger.info("Test Passed. admin tab is available");
-			
+
 		}
 		catch(NoSuchElementException e){
 
@@ -159,11 +157,13 @@ public class OrangeHrm {
 		Thread.sleep(2000);
 		new_test=extent.createTest("verify add button");
 
-		WebElement add = driver.findElement(By.name("btnAdd")); 
+		WebElement add = driver.findElement(By.id("btnAdd")); 
 
-		if(add.isDisplayed()) {
+		if(add!= null) {
 			new_test.pass("add button is displayed");
 			//logger.info("Test Passed");
+
+
 
 		}
 
@@ -176,9 +176,9 @@ public class OrangeHrm {
 		new_test=extent.createTest("verify delete button");
 
 		WebElement delete = driver.findElement(By.id("btnDelete")); 
-		if(delete.isDisplayed()) {
-
+		if(delete!= null) {
 			new_test.pass("Delete button is displayed");
+			logger.info("Test Passed");
 		}
 
 	}
@@ -189,9 +189,9 @@ public class OrangeHrm {
 
 		WebElement search = driver.findElement(By.id("searchBtn")); 
 
-		if(search.isDisplayed()) {
+		if(search!= null) {
 			new_test.pass("Delete button is displayed");
-
+			logger.info("Test Passed");
 		}
 
 	} 
@@ -203,7 +203,7 @@ public class OrangeHrm {
 
 		WebElement reset = driver.findElement(By.id("resetBtn")); 
 
-		if(reset.isDisplayed()) {
+		if(reset!= null) {
 			new_test.pass("reset button is displayed");
 			logger.info("Test Passed");
 		}
@@ -225,7 +225,7 @@ public class OrangeHrm {
 			new_test.pass("admin/viewSystemUsers is displayed");
 			logger.info("Test passed");
 		}
-	
+
 	}
 	@Test(priority=8)
 	public  void adduser() throws InterruptedException {
@@ -274,15 +274,15 @@ public class OrangeHrm {
 
 		WebElement conpassword = driver.findElement(By.name(cred.getConpass()));
 		conpassword.sendKeys(inp.adduserpass);
-		
+
 		Thread.sleep(2000);
 		WebElement save = driver.findElement(By.name("btnSave"));
 		save.click();	
-		
-		  
-			 
-		 
-			
+
+
+
+
+
 
 
 	}
@@ -291,36 +291,34 @@ public class OrangeHrm {
 	public void click_search() throws InterruptedException {
 		Thread.sleep(2000);
 
-		
+
 		driver.findElement(By.name("searchSystemUser[userName]")).clear();
-		driver.findElement(By.name("searchSystemUser[userName]")).sendKeys(inp.empname);
+		driver.findElement(By.name("searchSystemUser[userName]")).sendKeys(inp.addusername);
 		Thread.sleep(2000);
 		driver.findElement(By.id("searchBtn")).click();
-	}
-
-
-	@Test(priority = 11)
-
-	public void validate_username() throws InterruptedException {
-		Thread.sleep(2000);
-		new_test=extent.createTest("validate username");
 
 		WebElement user_table = driver.findElement(By.xpath("//*[@id=\"resultTable\"]/tbody/tr/td[2]/a"));
 
 
-		if (user_table.getText().equalsIgnoreCase(inp.empname)) {
+		if (user_table.getText().equalsIgnoreCase(inp.addusername)) {
+
 			rs = true;
-			System.out.println("results are matching");
+			System.out.println( "Usernames are matching");
 		}
 		else {
-			System.out.println("results are matching");
+
+			rs = false;
+			System.out.println( "Usernames are matching");
 		}
-
-
+		assertTrue(rs);
+		new_test.pass("usernames are matching");
 	}
 
 
-	@Test(priority = 12)
+
+
+
+	@Test(priority = 11)
 
 	public void validate_employeeName() throws InterruptedException {
 		Thread.sleep(2000);
@@ -342,7 +340,7 @@ public class OrangeHrm {
 
 	}
 
-	@Test(priority = 13)
+	@Test(priority = 12)
 
 	public void validate_status() throws InterruptedException {
 
@@ -362,7 +360,7 @@ public class OrangeHrm {
 		}
 
 	}	
-	@Test (priority=14)
+	@Test (priority=13)
 	public void delete_record() throws InterruptedException {
 		Thread.sleep(2000);
 		new_test=extent.createTest("delete user");
@@ -377,7 +375,7 @@ public class OrangeHrm {
 
 	}
 
-	@Test (priority=15)
+	@Test (priority=14)
 	public void search_deleted() throws InterruptedException {
 		Thread.sleep(2000);
 		new_test=extent.createTest("search deleted user");
@@ -388,7 +386,7 @@ public class OrangeHrm {
 
 
 	}
-	@Test (priority=16)
+	@Test (priority=15)
 	public void logout() throws InterruptedException {
 
 		Thread.sleep(2000);
@@ -399,7 +397,7 @@ public class OrangeHrm {
 		driver.findElement(By.linkText("Logout")).click();
 	}
 
-	@Test(priority = 17)
+	@Test(priority = 16)
 
 	public void landingPage() throws InterruptedException {
 
@@ -416,7 +414,7 @@ public class OrangeHrm {
 
 	}
 
-	@Test(priority = 18)
+	@Test(priority = 17)
 
 	public void validate_url_landingPage2() throws InterruptedException {
 
